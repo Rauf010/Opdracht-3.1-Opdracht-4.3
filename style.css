@@ -1,62 +1,101 @@
 
 html {
-  font-size: 62.5%;
+  font-family: Goldman Regular;
+  font-size: 100;
+  font-weight: bold;
+  color: white;
 }
+
 body {
-  font-family: "Goldman", cursive;
+  background: black;
+  margin: 0;
 }
 
 nav {
-  display: flex;
-  width: 100%;
-  padding: 2rem;
-  min-height: 10vh;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: auto;
-  background: #0e418a;
-  justify-content: space-between;
+list-style-type: none;
+font-size: 2.5rem;
+position: fixed;
+display: flex;
+width: 100%;
+min-height: 10vh;
+align-items: center;
+flex-wrap: wrap;
+background: #00a9c7;
+justify-content: space-between;
 }
-nav ul {
+
+ul {
   display: flex;
-  align-items: center;
   list-style-type: none;
 }
-nav li {
-  font-size: 2.5rem;
-  padding: 0 4rem 0 4rem;
-}
-nav a {
+
+li a {
+  display: block;
   color: white;
   text-decoration: none;
+  padding: 0 4rem 0 4rem;
 }
-nav img {
+
+li a:hover:not(.active) {
+  background: #0098b6;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  padding: 4rem;
+  padding-bottom: 15rem;
+}
+
+.hacker {
   width: 5vw;
+  margin-left: 2rem;
 }
-      body{
-          background: url(img/hacker.png);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-color: black;
-        }
-ul {
-  color: white;
-  font-size: 20px;
-  font-style: goldman;
+
+.hacker2 {
+  width: 100vw;
+  height: auto;
 }
-li {
-  color: #da4646;
-  font-style: goldman;
+
+.htmlcss {
+  width: 24vw;
+  float: left;
+  padding-right: 7rem
 }
+
+.javascript {
+  width: 17vw;
+  float: right;
+  padding-right: 5rem;
+  padding-left: 7rem;
+}
+
+.php {
+  width: 20vw;
+  float: right;
+  padding-right: 7rem;
+}
+
+.sql {
+  width: 30vw;
+  float: right;
+  padding-left: 7rem;
+}
+
+p {
+  padding: 0 2rem 0 7rem
+}
+
+
 footer {
-width: 100%;
-background-color:#0e418a;
-min-height: 50px;
-}
-a{
-color:black;
-font-size: 15px;
-}
-p1{
-font-size: 15px;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  height: 5vh;
+  width: 100%;
+  background: #00a9c7;
 }
